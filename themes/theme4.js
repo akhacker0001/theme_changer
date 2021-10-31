@@ -1,17 +1,17 @@
 
 (function(){
-    let bodyTheme1 = document.querySelector('body')
-    bodyTheme1.style.fontFamily = 'Fruktur'
-    let h1Theme1 = document.querySelectorAll('h1,h2,h3')
-    h1Theme1.forEach(ele=>{
+    let body = document.querySelector('body')
+    body.style.fontFamily = 'Fruktur'
+    let hTags = document.querySelectorAll('h1,h2,h3')
+    hTags.forEach(ele=>{
         ele.style.fontSize = '30px';
         ele.style.color = 'darkviolet'
         ele.style.fontFamily = 'sans-serif'
         
     })
     
-    let psTheme1 = document.querySelectorAll('p,span')
-    psTheme1.forEach(el=>{
+    let pTags = document.querySelectorAll('p,span')
+    pTags.forEach(el=>{
         el.style.color = 'mediumvioletred'
         el.style.fontSize = '16px'
     })
